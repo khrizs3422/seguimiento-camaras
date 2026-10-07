@@ -1,0 +1,5 @@
+{
+  "destino": "",
+  "pais": "56",
+  "_comentario": "destino = numero o grupo que recibe las alertas. Usa un numero en formato internacional (ejemplo: 56912345678) o el identificador de un grupo terminado en @g.us. pais = codigo de pais para numeros escritos como 9XXXXXXXX. Si el destino queda vacio, el servicio no envia nada y lo reporta como error."
+}

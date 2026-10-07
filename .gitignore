@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------------------
+# Seguimiento de Camaras - .gitignore
+# ---------------------------------------------------------------------------
+
+# --- Datos en tiempo real que NO deben publicarse -------------------------
+events/
+logs/
+backups/
+task_backup/
+models/
+python/
+python-libs/
+whatsapp/sesion/
+whatsapp/node_modules/
+mms_android_bridge/build/
+mms_android_bridge/.gradle/
+mms_android_bridge/app/build/
+_sms-retirado-*/
+
+# --- Datos de estado del detector -----------------------------------------
+camera_ai_state.json
+camera_watchdog_state.json
+camera_health_ultimo_aviso.json
+url_5g_activa.txt
+*.event.json
+
+# --- Registros y bases de datos -------------------------------------------
+*.log
+*.sqlite3
+*.db
+
+# --- Configuracion personal (no subir tus datos reales) -------------------
+# Las plantillas camera_ai.json y whatsapp/config.json SI se publican, pero
+# si las editas con tus datos reales evita volver a subirlas.
+.env
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# --- Node ------------------------------------------------------------------
+node_modules/
+
+# --- Binarios y comprimidos ------------------------------------------------
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.exe
+*.dll
+*.so
+*.onnx
+*.webp
+*.mp4
+*.jpg
+*.jpeg
+*.png
+mms_android_bridge/gradle/wrapper/gradle-wrapper.jar
+
+# --- Sistema ---------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store

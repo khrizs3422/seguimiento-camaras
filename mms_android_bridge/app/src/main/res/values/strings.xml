@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Puente SMS</string>
+    <string name="notification_channel_name">Puente SMS</string>
+    <string name="notification_text">Esperando alertas de la cámara</string>
+</resources>
